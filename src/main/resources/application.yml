@@ -1,0 +1,20 @@
+spring:
+  h2:
+    enabled: true
+  datasource:
+    #url: jdbc:h2:mem:testdb
+    username: anbit
+    password: root
+    url: jdbc:mysql://localhost:3306/spring-database
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  security:
+    user:
+      name: username
+      password: password
