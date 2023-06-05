@@ -43,6 +43,6 @@ jobs:
       - name: Install maven dependencies
         run: mvn clean install
       - name: Run build
-        run: mvn build
+        run: mvn clean install -DskipTests
       - name: Deploy to server
         run: echo "Deploying ...."
