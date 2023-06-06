@@ -1,4 +1,4 @@
-name: Restful web service
+name: Uploading artifacts
 on: [push, pull_request]
 jobs:
   test:

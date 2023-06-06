@@ -1,4 +1,4 @@
-name: Restful web service
+name: Activity type
 on:
   pull_request:
     types: [opened, edited]
